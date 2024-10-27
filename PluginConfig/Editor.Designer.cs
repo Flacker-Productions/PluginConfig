@@ -62,6 +62,7 @@
 			tbxEditor.DisabledColor = Color.FromArgb(100, 180, 180, 180);
 			tbxEditor.Dock = DockStyle.Fill;
 			tbxEditor.FindForm = null;
+			tbxEditor.Font = new Font("Courier New", 9.75F);
 			tbxEditor.ForeColor = Color.Crimson;
 			tbxEditor.GoToForm = null;
 			tbxEditor.Hotkeys = resources.GetString("tbxEditor.Hotkeys");
@@ -89,6 +90,7 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1018, 562);
 			Controls.Add(tbxEditor);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "Editor";
